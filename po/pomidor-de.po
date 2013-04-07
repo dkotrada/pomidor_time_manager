@@ -1,0 +1,82 @@
+# German translation for pomidor
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the pomidor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pomidor\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-04-05 20:03+0200\n"
+"PO-Revision-Date: 2013-04-05 22:28+0000\n"
+"Last-Translator: alfalive <Unknown>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-06 19:32+0000\n"
+"X-Generator: Launchpad (build 16550)\n"
+
+#: ../pomidor/__init__.py:23
+msgid "Show debug messages (-vv debugs pomidor_lib also)"
+msgstr "Zeige debug nachrichten"
+
+#: ../pomidor.desktop.in.h:1
+msgid "Pomidor"
+msgstr "Pomidor"
+
+#: ../pomidor.desktop.in.h:2 ../data/ui/AboutPomidorDialog.ui.h:1
+msgid "Pomodoro Time Manager"
+msgstr "Pomodoro Zeit Manager"
+
+#: ../data/ui/AboutPomidorDialog.ui.h:2
+msgid "Project Page"
+msgstr "Projekt Seite"
+
+#: ../data/ui/AboutPomidorDialog.ui.h:3
+msgid "Dieter Konrad"
+msgstr "Dieter Konrad"
+
+#: ../data/ui/PomidorWindow.ui.h:1
+msgid " "
+msgstr " "
+
+#: ../data/ui/PomidorWindow.ui.h:2
+msgid "Anleitung"
+msgstr "Anleitung"
+
+#: ../data/ui/PomidorWindow.ui.h:3
+msgid "Wie benutze ich das Programm?"
+msgstr "Wie benutze ich das Programm?"
+
+#: ../data/ui/PomidorWindow.ui.h:4
+msgid "25"
+msgstr "25"
+
+#: ../data/ui/PomidorWindow.ui.h:5
+msgid "Start Pomodoro"
+msgstr "Starte Pomodoro"
+
+#: ../data/ui/PomidorWindow.ui.h:6
+msgid "5"
+msgstr "5"
+
+#: ../data/ui/PomidorWindow.ui.h:7
+msgid "Short Break"
+msgstr "Kurze Pause"
+
+#: ../data/ui/PomidorWindow.ui.h:8
+msgid "15"
+msgstr "15"
+
+#: ../data/ui/PomidorWindow.ui.h:9
+msgid "Long Break"
+msgstr "Lange Pause"
+
+#: ../data/ui/PomidorWindow.py.h:10
+msgid "Time is up!"
+msgstr "Zeit ist abgelaufen!"
+
+#: ../data/ui/PomidorWindow.py.h:11
+msgid "Pomidor Time Manager"
+msgstr "Pomidor Zeitmanager"

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <!-- interface-requires pomidor_window 1.0 -->
+  <!-- interface-local-resource-path ../media -->
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-properties</property>
+  </object>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-help</property>
+  </object>
+  <object class="PomidorWindow" id="pomidor_window">
+    <property name="width_request">200</property>
+    <property name="height_request">400</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">Pomidor</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center-always</property>
+    <property name="icon">../media/pomidor.svg</property>
+    <property name="icon_name">pomidor</property>
+    <property name="urgency_hint">True</property>
+    <property name="gravity">center</property>
+    <property name="has_resize_grip">False</property>
+    <child>
+      <object class="GtkVBox" id="vbox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="spacing">5</property>
+        <child>
+          <object class="GtkMenuBar" id="menubar">
+            <property name="height_request">32</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pack_direction">rtl</property>
+            <child>
+              <object class="GtkImageMenuItem" id="mnu_help">
+                <property name="label" translatable="yes"> </property>
+                <property name="use_action_appearance">False</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="image">image1</property>
+                <property name="use_stock">False</property>
+                <property name="always_show_image">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="helpMenu">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem" id="mnu_contents">
+                        <property name="label" translatable="yes">Anleitung</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="tooltip_text" translatable="yes">Wie benutze ich das Programm?</property>
+                        <property name="image">image2</property>
+                        <property name="use_stock">False</property>
+                        <accelerator key="F1" signal="activate"/>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="mnu_about">
+                        <property name="label">gtk-about</property>
+                        <property name="use_action_appearance">False</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="use_underline">True</property>
+                        <property name="use_stock">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="timelabel">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xpad">30</property>
+            <property name="ypad">5</property>
+            <property name="label">00:00</property>
+            <property name="wrap">True</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans 10"/>
+              <attribute name="size" value="59000"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButtonBox" id="buttonbox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">3</property>
+            <property name="margin_right">3</property>
+            <property name="layout_style">center</property>
+            <child>
+              <object class="GtkButton" id="pbutton">
+                <property name="label" translatable="yes">25</property>
+                <property name="use_action_appearance">False</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_markup" translatable="yes">Start Pomodoro</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="sbutton">
+                <property name="label" translatable="yes">5</property>
+                <property name="use_action_appearance">False</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_markup" translatable="yes">Short Break</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="lbutton">
+                <property name="label" translatable="yes">15</property>
+                <property name="use_action_appearance">False</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_markup" translatable="yes">Long Break</property>
+                <property name="use_action_appearance">False</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

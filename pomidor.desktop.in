@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Pomidor
+_Comment=Pomodoro Time Manager
+Categories=GNOME;Utility;
+Exec=pomidor
+Icon=/usr/share/pomidor/media/pomidor.svg
+Terminal=false
+Type=Application

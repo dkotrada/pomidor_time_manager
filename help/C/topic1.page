@@ -1,0 +1,28 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="topic1">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Dieter Konrad</name>
+    <email>dkotrada@gmail.com</email>
+    <years>2013</years>
+  </credit>
+  <desc>Wie benutze ich Pomodoro Technick?</desc>
+</info>
+
+<title>Vorgehensweise</title>
+
+<p>Die Technik besteht aus fünf Schritten:</p>
+<p>1. die Aufgabe schriftlich formulieren</p>
+<p>2. den Kurzzeitwecker auf 25 Minuten stellen</p>
+<p>3. die Aufgabe bearbeiten bis der Wecker klingelt; mit einem X markieren</p> 
+<p>4. kurze Pause machen (5 Minuten)</p>
+<p>5. alle vier 'Pomodori' eine längere Pause machen (15-20 Minuten).</p>
+
+<p>Detailierte Informationen: http://de.wikipedia.org/wiki/Pomodoro_Zeitmanagement</p>
+
+
+http://en.wikipedia.org/wiki/Pomodoro_Technique
+</page>

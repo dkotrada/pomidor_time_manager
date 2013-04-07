@@ -1,0 +1,26 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="en">
+
+<info>
+  <link type="guide" xref="index#contents"/>
+  <credit type="author">
+    <name>Dieter Konrad</name>
+    <email>dkotrada@gmail.com</email>
+    <years>2013</years>
+  </credit>
+  <desc>How to use the Pomodoro Technick?</desc>
+</info>
+
+<title>Underlying principles</title>
+
+<p>There are five basic steps to implementing the technique:</p>
+<p>1. decide on the task to be done</p>
+<p>2. set the pomodoro (timer) to 25 minutes</p>
+<p>3. work on the task until the timer rings; record with an X</p>
+<p>4. take a short break (3-5 minutes)</p>
+<p>5. every four "pomodori" take a longer break (15–30 minutes)</p>
+
+<p>Detailed infos: http://en.wikipedia.org/wiki/Pomodoro_Technique</p>
+
+</page>

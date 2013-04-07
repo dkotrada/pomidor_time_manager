@@ -1,0 +1,13 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: pomidor
+Upstream-Contact: Dieter Konrad <dkotrada@gmail.com>
+Source: https://launchpad.net/pomidor
+
+Files: *
+Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com
+Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com# This file is distributed under the license LGPL version 2 or later
+Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.co</property>
+Copyright: (C) 2013 Rosetta Contributors and Canonical Ltd 2013
+License: LGPL-2
+ The full text of the GPL is distributed in
+ /usr/share/common-licenses/GPL-2 on Debian systems.
