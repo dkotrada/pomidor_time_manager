@@ -73,6 +73,7 @@ def get_help_uri(page=None):
     # help_uri from source tree - default language
     here = os.path.dirname(__file__)
     help_uri = os.path.abspath(os.path.join(here, '..', 'help', 'C'))
+    print help_uri
 
     if not os.path.exists(help_uri):
         # installed so use gnome help tree - user's language
