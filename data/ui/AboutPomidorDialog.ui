@@ -10,8 +10,8 @@
     <property name="icon">../media/pomidor.svg</property>
     <property name="type_hint">normal</property>
     <property name="program_name">Pomidor</property>
-    <property name="version">Version 0.1</property>
-    <property name="copyright">Copyright (C) 2013 Dieter Konrad dkotrada@gmail.co</property>
+    <property name="version">Version 0.2</property>
+    <property name="copyright">Copyright (C) 2013 Dieter Konrad dkotrada@gmail.com</property>
     <property name="comments" translatable="yes">Pomodoro Time Manager</property>
     <property name="website">http://launchpad.net/~dkotrada</property>
     <property name="website_label" translatable="yes">Project Page</property>
@@ -19,10 +19,14 @@
 </property>
     <property name="authors">Copyright (C) 2013 Dieter Konrad dkotrada@gmail.co</property>
     <property name="documenters">Dieter Konrad</property>
-    <property name="translator_credits" translatable="yes">Dieter Konrad</property>
+    <property name="translator_credits" translatable="no">Dieter Konrad
+Cassidy James
+Jaap Broekhuizen
+Leonardo Lemos
+Eze Sapo</property>
     <property name="artists">Dieter Konrad</property>
     <property name="logo">../media/background.png</property>
-    <property name="license_type">lgpl-2-1</property>
+    <property name="license_type">mit-x11</property>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox1">
         <property name="visible">True</property>

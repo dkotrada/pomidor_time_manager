@@ -5,9 +5,11 @@ Source: https://launchpad.net/pomidor
 
 Files: *
 Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com
+Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com# Este archivo se "
+Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com</property>
+Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com# This file is "
 Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.com# This file is distributed under the license LGPL version 2 or later
 Copyright: (C) 2013 Dieter Konrad dkotrada@gmail.co</property>
+Copyright: (C) <2013> <Dieter Konrad https://launchpad.net/~dkotrada>
 Copyright: (C) 2013 Rosetta Contributors and Canonical Ltd 2013
-License: LGPL-2
- The full text of the GPL is distributed in
- /usr/share/common-licenses/GPL-2 on Debian systems.
+License: MIT

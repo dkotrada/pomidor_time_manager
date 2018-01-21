@@ -1,0 +1,73 @@
+# Russian translation for pomidor
+# Pomidor Time Manager
+# This file is distributed under BSD LICENSE
+# Дмитрий Конрад <dkotrada@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pomidor\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-04-18 19:32+0200\n"
+"PO-Revision-Date: 2013-04-24 03:36+0000\n"
+"Last-Translator: dkotrada <Unknown>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-24 05:29+0000\n"
+"X-Generator: Launchpad (build 16580)\n"
+
+
+#: ../pomidor.desktop.in.h:1 ../data/ui/PomidorWindow.ui.h:1
+msgid "Pomidor"
+msgstr "Помидор"
+
+#: ../pomidor.desktop.in.h:2 ../data/ui/AboutPomidorDialog.ui.h:1
+msgid "Pomodoro Time Manager"
+msgstr "Помодоро Управление Временем"
+
+#. Show notification // NOTE for translation _("Stirng")
+#: ../pomidor/PomidorWindow.py:149
+msgid "Pomidor Time Manager"
+msgstr "Помидор Управление Временем"
+
+#: ../pomidor/PomidorWindow.py:149
+msgid "Time is up!"
+msgstr "Время вышло!"
+
+#: ../pomidor/PomidorWindow.py:151
+msgid "Could not show notification..."
+msgstr "Неполучается показать оповещение"
+
+#: ../data/ui/AboutPomidorDialog.ui.h:2
+msgid "Project Page"
+msgstr "Страница Проекта"
+
+#: ../data/ui/SettingsDialog.ui.h:1
+msgid "Enable sound notification"
+msgstr "Звуковое оповещение"
+
+#: ../data/ui/PomidorWindow.ui.h:2
+msgid "Start Pomodoro"
+msgstr "Начать помодоро"
+
+#: ../data/ui/PomidorWindow.ui.h:4
+msgid "Short Break"
+msgstr "Короткая пауза"
+
+#: ../data/ui/PomidorWindow.ui.h:6
+msgid "Long Break"
+msgstr "Длинная пауза"
+
+#: ../data/ui/PomidorWindow.ui.h:8
+msgid "About Pomidor"
+msgstr "О программе Помидор"
+
+#: ../data/ui/PomidorWindow.ui.h:10
+msgid "Pomodoro How-to"
+msgstr "Помодоро инструкция"
+
+#: ../data/ui/PomidorWindow.ui.h:12
+msgid "Settings"
+msgstr "Настройки"
+

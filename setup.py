@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 ### BEGIN LICENSE
-# Copyright (C) 2013 Dieter Konrad dkotrada@gmail.com# This file is distributed under the license LGPL version 2 or later
+
 ### END LICENSE
 
 ###################### DO NOT TOUCH THIS (HEAD TO THE SECOND PART) ######################
@@ -76,8 +76,8 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
 
 DistUtilsExtra.auto.setup(
     name='pomidor',
-    version='0.1',
-    license='LGPL-2',
+    version='0.2',
+    license='MIT',
     author='Dieter Konrad',
     author_email='dkotrada@gmail.com',
     description='Pomodoro Time Manager',

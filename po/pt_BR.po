@@ -1,0 +1,77 @@
+# Brazilian Portuguese translation for pomidor
+# Pomidor Time Manager
+# This file is distributed under BSD LICENSE
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pomidor\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-04-17 15:56+0200\n"
+"PO-Revision-Date: 2013-04-09 13:07+0000\n"
+"Last-Translator: Leonardo Lemos <leonardolemos@live.com>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-18 06:06+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
+
+
+#: ../pomidor.desktop.in.h:1 ../data/ui/PomidorWindow.ui.h:1
+msgid "Pomidor"
+msgstr "Pomidor"
+
+#: ../pomidor.desktop.in.h:2 ../data/ui/AboutPomidorDialog.ui.h:1
+msgid "Pomodoro Time Manager"
+msgstr "Gerenciador de tempo Pomidor"
+
+#. Show notification // NOTE for translation _("Stirng")
+#: ../pomidor/PomidorWindow.py:141
+msgid "Pomidor Time Manager"
+msgstr "Gerenciador de tempo Pomidor"
+
+#: ../pomidor/PomidorWindow.py:141
+msgid "Time is up!"
+msgstr "O tempo acabou!"
+
+#: ../pomidor/PomidorWindow.py:143
+msgid "Could not show notification..."
+msgstr ""
+
+#: ../data/ui/AboutPomidorDialog.ui.h:2
+msgid "Project Page"
+msgstr "Página do projeto"
+
+#: ../data/ui/AboutPomidorDialog.ui.h:5
+msgid "Dieter Konrad"
+msgstr "Dieter Konrad"
+
+#: ../data/ui/SettingsDialog.ui.h:1
+msgid "Enable sound notification"
+msgstr ""
+
+#: ../data/ui/PomidorWindow.ui.h:2
+msgid "Start Pomodoro"
+msgstr "Iniciar Pomodoro"
+
+#: ../data/ui/PomidorWindow.ui.h:4
+msgid "Short Break"
+msgstr "Pausa curta"
+
+#: ../data/ui/PomidorWindow.ui.h:6
+msgid "Long Break"
+msgstr "Pausa longa"
+
+#: ../data/ui/PomidorWindow.ui.h:8
+msgid "About Pomidor"
+msgstr ""
+
+#: ../data/ui/PomidorWindow.ui.h:10
+msgid "Pomodoro How-to"
+msgstr ""
+
+#: ../data/ui/PomidorWindow.ui.h:12
+msgid "Settings"
+msgstr ""
+

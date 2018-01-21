@@ -1,46 +1,50 @@
+# Polish translation for pomidor
 # Pomidor Time Manager
 # This file is distributed under BSD LICENSE
-# Dieter Konrad <dkotrada@gmail.com>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-18 19:32+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: pomidor\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-04-17 15:56+0200\n"
+"PO-Revision-Date: 2013-04-12 14:18+0000\n"
+"Last-Translator: Adrian Widerski <Unknown>\n"
+"Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2013-04-18 06:06+0000\n"
+"X-Generator: Launchpad (build 16567)\n"
 
 
 #: ../pomidor.desktop.in.h:1 ../data/ui/PomidorWindow.ui.h:1
 msgid "Pomidor"
-msgstr ""
+msgstr "Pomidor"
 
 #: ../pomidor.desktop.in.h:2 ../data/ui/AboutPomidorDialog.ui.h:1
 msgid "Pomodoro Time Manager"
-msgstr ""
+msgstr "Zarządzanie czasem Pomodoro"
 
-#. Show notification // NOTE for translation _("String")
-#: ../pomidor/PomidorWindow.py:149
+#: ../pomidor/PomidorWindow.py:141
 msgid "Pomidor Time Manager"
-msgstr ""
+msgstr "Zarządca czasu Pomidor"
 
-#: ../pomidor/PomidorWindow.py:149
+#: ../pomidor/PomidorWindow.py:141
 msgid "Time is up!"
-msgstr ""
+msgstr "Koniec czasu!"
 
-#: ../pomidor/PomidorWindow.py:151
+#: ../pomidor/PomidorWindow.py:143
 msgid "Could not show notification..."
 msgstr ""
 
 #: ../data/ui/AboutPomidorDialog.ui.h:2
 msgid "Project Page"
-msgstr ""
+msgstr "Strona projektu"
+
+#: ../data/ui/AboutPomidorDialog.ui.h:5
+msgid "Dieter Konrad"
+msgstr "Dieter Konrad"
 
 #: ../data/ui/SettingsDialog.ui.h:1
 msgid "Enable sound notification"
@@ -48,15 +52,15 @@ msgstr ""
 
 #: ../data/ui/PomidorWindow.ui.h:2
 msgid "Start Pomodoro"
-msgstr ""
+msgstr "Uruchom Pomodoro"
 
 #: ../data/ui/PomidorWindow.ui.h:4
 msgid "Short Break"
-msgstr ""
+msgstr "Krótka przerwa"
 
 #: ../data/ui/PomidorWindow.ui.h:6
 msgid "Long Break"
-msgstr ""
+msgstr "Długa przerwa"
 
 #: ../data/ui/PomidorWindow.ui.h:8
 msgid "About Pomidor"
